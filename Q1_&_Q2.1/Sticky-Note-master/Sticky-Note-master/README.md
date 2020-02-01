@@ -4,8 +4,6 @@ INTRO:
 This is a simple sticky note application which allows you to create random coloured sticky notes and
 write stuffs on them, and save them of course!
 
-LIVE DEMO:
-THIRD-PARTY LIBRARIES:
 * jQuery (in js/jquery)
 
 CSS:
