@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		 <title>rectangle</title>
+		 <meta charset="utf-8">
+		 <meta name="viewport" content="width=device-width, initial-scale=1">
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		 <style>
+		    #rec1{
+			    width:800px;
+				height:300px;
+				border:1px solid #000;
+				background-color:#eeee;
+			
+				
+				margin-top:100px;
+				text-align:center;
+			} 
+			#rec2{
+			    width:400px;
+				height:200px;
+				border:1px solid #000;
+				
+				background-color:#cccc;
+				
+				margin-top:20px;
+				text-align:center;
+			} 
+			#rec3{
+			    width:200px;
+				height:120px;
+				border:1px solid #000;
+				
+				background-color: blue;
+				margin-top:15px;
+				text-align:center;
+			} 
+		 </style>
+	</head>
+	<body>
+		<div  class="row">
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+				<br>
+				<div id="rec1" onclick="myFunction_1()"><p id="m1"></p>
+					<div class="row">
+						<div class="col-md-3"></div>
+						<div class="col-md-6"><br>
+							<div id="rec2" onclick="myFunction_2()"><p id="m2"></p>
+								<div class="row">
+									<div class="col-md-3"></div>
+									<div class="col-md-6">
+										<div id="rec3" onclick="myFunction_3()"><p id="m3"></p></div>
+									</div>
+									<div class="col-md-3"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3"></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3"></div>
+		</div>  
+	</body>
+	<script type="text/javascript">
+		function myFunction_1(){
+			document.getElementById("m1").innerHTML="Div Element 1";
+		}
+
+		function myFunction_2(){
+			document.getElementById("m2").innerHTML="Div Element 2";
+		}
+
+		function myFunction_3(){
+			document.getElementById("m3").innerHTML="Div Element 3";
+		}
+	</script>
+</html>
